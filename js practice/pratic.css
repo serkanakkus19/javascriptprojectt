@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(0, 255, 38, 0.323);
+    margin: 0; /* Ekran kenar boşluklarını kaldırmak için */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Sayfanın tamamını kaplamak için */
+}
+
+.boxone {
+    background-color: rgba(49, 136, 212, 0.685);
+    width: 80%;
+    max-width: 600px; /* Genişliği sınırlamak için */
+    height: 60px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxonee {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+}
