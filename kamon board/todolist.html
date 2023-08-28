@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="todolist.css">
+    <script src="drag.js" defer></script>
+    <script src="todo.js" defer></script>
+     <!--Türkçe olarak ifade etmek gerekirse, 
+        defer özelliği "erteleme" anlamına gelir. Bu özelliği kullanarak tarayıcıya,
+         betiğin yüklemesini ertelemesini ve belgenin tamamen yüklendiğinde çalıştırılmasını söylersiniz. --> 
+</head>
+<body background="C:\Users\serkan\Downloads\aaa.png">
+    <div class="board" > 
+    <form id="todo-form">
+        <input type="text" placeholder="New TODO..."  id="todo-input"/>
+         <button type="submit">add +</button>
+    </form>
+    
+     <div class="lanes"> 
+    <div class="swim-lane" id="todo-lane" >
+    <h3 class="heading">TODO</h3>
+     
+   <p class="task" draggable="true">Lorem, ipsum.</p>
+   <p class="task" draggable="true">Lorem, ipsum dolor.</p>
+   <p class="task" draggable="true">Lorem, ipsum dolor.</p>
+    
+
+        </div>
+        <div class="swim-lane" >
+        <h3 class="heading">doing</h3>
+         
+       <p class="task" draggable="true">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+       </p>
+       </div>
+     
+    
+    <div class="swim-lane" >
+    <h3 class="heading">done</h3>
+     
+   <p class="task" draggable="true">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, consectetur explicabo itaque in veritatis reprehenderit iste ducimus dolor. Sed, asperiores!.</p>
+</div>
+   </div>
+</body>
+</html>

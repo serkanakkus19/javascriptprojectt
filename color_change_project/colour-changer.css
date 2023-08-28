@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+
+.container{
+   background-color: white;  /* arka planı değiştirmek için */
+   position: absolute;         /*  4 köşeden konumlandırma yapmamızı sağlar */ 
+   transform: translate(-50%,-50%); /* X ve Y eksenlerindeki konumunu değiştirmek için kullanılır.
+    Birinci parametre X ekseni için, ikinci parametre Y ekseni için uygulanır. */
+   top:50% ;
+   left:50% ;
+   width: 60%;
+   padding: 20px 0;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 2); /* containerin arkasında gölge vermek için*/
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   border-radius: 5px;
+   color: aqua;
+   display: grid;
+   justify-items: center;
+}
+.wrapper{
+    width: 100%;
+    text-align: center;
+
+}
+input[type="range"]{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 25px;
+
+}
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 20px ;
+    background-color: blue;
+    padding: 10px 30;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    border-radius: 2px;
+}
